@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center py-6">
       <div>
         <Link to="/">
-          <span className="text-2xl font-bold text-black ">
+          <span className="text-3xl font-bold text-black ">
             Build Your Dream
           </span>
         </Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link to="blog">Blog</Link>
       </div>
 
-      <button className="primary-btn w-48 px-7 py-5	rounded-lg text-xl text-white">
+      <button className="primary-btn w-48 px-7 py-5 font-bold	rounded-lg text-xl text-white">
         Star Applying
       </button>
     </nav>
