@@ -11,6 +11,8 @@
     "jobDescription": "We are seeking a talented front-end developer to join our team. You will be responsible for building responsive and dynamic user interfaces using modern web technologies.",
     "jobResponsibility": "Develop new user-facing features, Build reusable code and libraries for future use, Ensure the technical feasibility of UI/UX designs, Optimize application for maximum speed and scalability, Collaborate with other team members and stakeholders",
     "educationalRequirements": "Bachelor’s or Master’s degree in Computer Science, Software Engineering or related field",
+    "phoneNumber": "123-456-7890",
+    "email": "bdjgj@acmeinc.com",
     "experience": "3+ years of professional experience in front-end development, with demonstrated expertise in HTML, CSS, JavaScript, and modern web frameworks such as React or Angular."
   },
   {
@@ -55,9 +57,9 @@
     "salary": "$120,000 - $140,000",
     "logo": "https://i.ibb.co/wMrDvcP/group.png",
     "jobDescription": "We are seeking a talented Backend Engineer to join our team. In this role, you will be responsible for designing, developing, and maintaining our backend systems and infrastructure.",
-    "jobResponsibilities": "Designing, developing, and maintaining backend systems and infrastructure",
+    "jobResponsibility": "Designing, developing, and maintaining backend systems and infrastructure",
     "educationalRequirements": "Bachelor’s degree in Computer Science or related field",
-    "experiences": "5+ years of experience in backend development",
+    "experience": "5+ years of experience in backend development",
     "phoneNumber": "123-456-45650",
     "email": "gjkj@acmeinc.com"
   },
@@ -70,9 +72,10 @@
     "location": "New York, USA",
     "salary": "$90,000 - $110,000",
     "logo": "https://i.ibb.co/tb37SSL/google.png",
+    "jobResponsibility": "Collecting and extracting data from various sources, such as databases, APIs, and other data repositories.",
     "jobDescription": "We are seeking a Data Analyst to join our team. In this role, you will be responsible for collecting, analyzing and interpreting large datasets to drive business decisions.",
     "educationalRequirements": "Bachelor’s degree in Mathematics, Statistics, Computer Science or related field",
-    "experiences": "3+ years of experience as a Data Analyst",
+    "experience": "3+ years of experience as a Data Analyst",
     "phoneNumber": "123-456-7890",
     "email": "jobs@acmeinc.com"
   },
@@ -88,7 +91,7 @@
     "jobDescription": "We are seeking a Software Engineer to join our team. In this role, you will be responsible for developing and maintaining software applications that meet the needs of our clients and customers.",
     "jobResponsibility": "Design, develop, and test software applications. Collaborate with cross-functional teams to identify, prioritize, and execute software development projects. Continuously improve software engineering practices and processes.",
     "educationalRequirements": "Bachelor’s degree in Computer Science, Software Engineering, or related field",
-    "experiences": "3+ years of experience in software development",
+    "experience": "3+ years of experience in software development",
     "phoneNumber": "123-456-7890",
     "email": "jobdffds@acmeinc.com"
   },
@@ -104,7 +107,7 @@
     "jobDescription": "We are seeking a UX Designer to join our team. In this role, you will be responsible for designing and improving user interfaces and experiences across all of our digital products.",
     "jobResponsibility": "Collaborate with cross-functional teams to identify, prioritize, and execute design projects. Create wireframes, prototypes, and high-fidelity designs for mobile and web applications. Conduct user research and usability testing to gather feedback and iterate on designs.",
     "educationalRequirements": "Bachelor’s degree in Graphic Design, User Experience Design, or related field",
-    "experiences": "3+ years of experience in UX design or related field",
+    "experience": "3+ years of experience in UX design or related field",
     "phoneNumber": "123-456-7890",
     "email": "jofdfdbs@acmeinc.com"
   }
