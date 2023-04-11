@@ -7,7 +7,7 @@
     "employmentType": "Full Time",
     "location": "United States",
     "salary": "$100,000 - $120,000",
-    "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    "logo": "https://i.ibb.co/tb37SSL/google.png"
   },
   {
     "id": 22,
@@ -17,7 +17,7 @@
     "employmentType": "Full Time",
     "location": "Toronto, Canada",
     "salary": "$80,000 - $100,000",
-    "logo": "https://logowik.com/content/uploads/images/tesla.jpg"
+    "logo": "https://i.ibb.co/wBwnJch/tesla.png"
   },
   {
     "id": 33,
@@ -27,7 +27,7 @@
     "employmentType": "Part Time",
     "location": "Europe",
     "salary": "$50 - $60 per hour",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+    "logo": "https://i.ibb.co/Ttgn4vT/netflix.png"
   },
   {
     "id": 44,
@@ -37,7 +37,7 @@
     "employmentType": "Full Time",
     "location": "San Francisco, USA",
     "salary": "$120,000 - $140,000",
-    "logo": "https://example.com/gamma-logo.png"
+    "logo": "https://i.ibb.co/wMrDvcP/group.png"
   },
   {
     "id": 55,

@@ -68,10 +68,18 @@ const Home = () => {
             need. Its your future
           </p>
         </div>
-        <div>
-          {featuredJob.map((singleJob) => (
-            <Featured key={singleJob.id} singleJob={singleJob}></Featured>
-          ))}
+        <div className="grid grid-cols-2 gap-4">
+          {featuredJob
+            .map((singleJob) => (
+              <Featured key={singleJob.id} singleJob={singleJob}></Featured>
+            ))
+            .slice(0, 4)}
+        </div>
+
+        <div className="flex flex-col justify-center items-center">
+          <button className="primary-btn w-48 px-7 py-5 font-bold	rounded-lg text-xl text-white mt-6">
+            See All Jobs
+          </button>
         </div>
       </section>
     </div>
