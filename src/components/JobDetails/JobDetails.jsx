@@ -1,10 +1,15 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../../../public/fakedb";
 
 const JobDetails = () => {
   const { jobId } = useParams();
   const jobData = useLoaderData();
   const job = jobData.find((job) => job.id === Number(jobId));
+
+  const handleApply = (job) => {
+    addToDb(job.id);
+  };
 
   return (
     <div className="grid grid-cols-2 gap-x-6	mt-10">
@@ -62,7 +67,10 @@ const JobDetails = () => {
             {job.location}{" "}
           </p>
         </div>
-        <button className="primary-btn w-48 px-7 py-5 font-bold	rounded-lg text-xl text-white mt-6">
+        <button
+          onClick={() => handleApply(job)}
+          className="primary-btn w-48 px-4 py-3 font-bold	rounded-lg text-xl text-white mt-6"
+        >
           Apply Now
         </button>
       </div>

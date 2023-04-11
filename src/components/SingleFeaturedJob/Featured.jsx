@@ -26,13 +26,13 @@ const Featured = ({ singleJob }) => {
         </span>
       </p>
       <p className="text-slate-400 flex justify-start items-center">
-        <img src="https://i.ibb.co/fQRFmnQ/Location-Icon.png" alt="" />
+        <img src="https://i.ibb.co/cLXSpS9/Frame-4.png" alt="" />
         {location} <img src="https://i.ibb.co/5rV8xQC/Frame.png" alt="" />
         {salary}
       </p>
 
       <Link to={`/${id}`}>
-        <button className="mb-auto primary-btn w-48 px-7 py-5 font-bold	rounded-lg text-xl text-white mt-6">
+        <button className="mb-auto primary-btn w-48 px-4 py-3 font-bold	rounded-lg text-xl text-white mt-6">
           View Details
         </button>
       </Link>

@@ -13,6 +13,11 @@ const Home = () => {
       .then((data) => setJobs(data));
   }, []);
 
+  const [state, setState] = useState(false);
+  const showAll = () => {
+    setState(!state);
+  };
+
   return (
     <div>
       {/* hero area start */}
@@ -26,7 +31,7 @@ const Home = () => {
             put training to use, pick up new skills, and have a real chance of
             advancement in the future.
           </p>
-          <button className="primary-btn w-48 px-7 py-5 font-bold	rounded-lg text-xl text-white mt-6">
+          <button className="primary-btn w-48 px-5 py-4 font-bold	rounded-lg text-xl text-white mt-6">
             Get Started
           </button>
         </div>
@@ -73,11 +78,15 @@ const Home = () => {
             .map((singleJob) => (
               <Featured key={singleJob.id} singleJob={singleJob}></Featured>
             ))
-            .slice(0, 4)}
+            .slice(0, state ? featuredJob.length : 4)}
+          {/* slice(0, state ? state.length : 4) */}
         </div>
 
         <div className="flex flex-col justify-center items-center">
-          <button className="primary-btn w-48 px-7 py-5 font-bold	rounded-lg text-xl text-white mt-6">
+          <button
+            onClick={showAll}
+            className="primary-btn w-48 px-4 py-3 font-bold	rounded-lg text-xl text-white mt-6"
+          >
             See All Jobs
           </button>
         </div>
