@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { useLoaderData } from "react-router-dom";
 import Job from "../Job/Job";
+import Featured from "../SingleFeaturedJob/Featured";
 const Home = () => {
   const jobs = useLoaderData();
-  //   console.log(jobs);
+
+  const [featuredJob, setFeaturedJob] = useState([]);
+  useEffect(() => {
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((data) => setFeaturedJob(data));
+  }, []);
 
   return (
     <div>
@@ -46,6 +53,24 @@ const Home = () => {
         <div className="flex justify-between mt-7">
           {jobs.map((job) => (
             <Job key={job.id} job={job}></Job>
+          ))}
+        </div>
+      </section>
+
+      {/* feature jobs */}
+      <section>
+        <div className="text-center">
+          <h3 className="text-4xl text-black mb-4 font-extrabold">
+            Featured Jobs
+          </h3>
+          <p>
+            Explore thousands of job opportunities with all the information you
+            need. Its your future
+          </p>
+        </div>
+        <div>
+          {featuredJob.map((singleJob) => (
+            <Featured key={singleJob.id} singleJob={singleJob}></Featured>
           ))}
         </div>
       </section>
