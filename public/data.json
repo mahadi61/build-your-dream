@@ -7,7 +7,11 @@
     "employmentType": "Full Time",
     "location": "United States",
     "salary": "$100,000 - $120,000",
-    "logo": "https://i.ibb.co/tb37SSL/google.png"
+    "logo": "https://i.ibb.co/tb37SSL/google.png",
+    "jobDescription": "We are seeking a talented front-end developer to join our team. You will be responsible for building responsive and dynamic user interfaces using modern web technologies.",
+    "jobResponsibility": "Develop new user-facing features, Build reusable code and libraries for future use, Ensure the technical feasibility of UI/UX designs, Optimize application for maximum speed and scalability, Collaborate with other team members and stakeholders",
+    "educationalRequirements": "Bachelor’s or Master’s degree in Computer Science, Software Engineering or related field",
+    "experience": "3+ years of professional experience in front-end development, with demonstrated expertise in HTML, CSS, JavaScript, and modern web frameworks such as React or Angular."
   },
   {
     "id": 22,
@@ -17,7 +21,13 @@
     "employmentType": "Full Time",
     "location": "Toronto, Canada",
     "salary": "$80,000 - $100,000",
-    "logo": "https://i.ibb.co/wBwnJch/tesla.png"
+    "logo": "https://i.ibb.co/wBwnJch/tesla.png",
+    "jobDescription": "We are seeking a talented marketing manager to oversee our marketing campaigns and initiatives. You will be responsible for developing and implementing strategies to promote our products and services and increase brand awareness.",
+    "jobResponsibility": "Develop and implement marketing strategies and campaigns, Manage and oversee advertising and promotional activities, Analyze market trends and customer behavior, Conduct market research and competitor analysis, Collaborate with other departments to develop and execute cross-functional initiatives",
+    "educationalRequirements": "Bachelor’s or Master’s degree in Marketing, Business Administration, or related field",
+    "experience": "5+ years of professional experience in marketing or related field, with demonstrated expertise in campaign management, advertising, and market analysis.",
+    "phoneNumber": "123-456-7890",
+    "email": "bdjgj@acmeinc.com"
   },
   {
     "id": 33,
@@ -27,7 +37,13 @@
     "employmentType": "Part Time",
     "location": "Europe",
     "salary": "$50 - $60 per hour",
-    "logo": "https://i.ibb.co/Ttgn4vT/netflix.png"
+    "logo": "https://i.ibb.co/Ttgn4vT/netflix.png",
+    "jobDescription": "We are seeking a talented product designer to help us create engaging and intuitive digital products. You will be responsible for designing user interfaces and experiences that are both functional and aesthetically pleasing.",
+    "jobResponsibility": "Design user interfaces and experiences for digital products, Create wireframes, prototypes, and mockups, Collaborate with developers and other stakeholders to implement designs, Conduct user research and testing, Continuously improve design processes and practices",
+    "educationalRequirements": "Bachelor’s or Master’s degree in Product Design, Graphic Design, or related field",
+    "experience": "3+ years of professional experience in product design, with demonstrated expertise in user interface and experience design, prototyping tools such as Sketch, Figma or Adobe XD, and an understanding of front-end development technologies such as HTML, CSS, and JavaScript.",
+    "phoneNumber": "123-456-7890",
+    "email": "build@acmeinc.com"
   },
   {
     "id": 44,
@@ -37,7 +53,13 @@
     "employmentType": "Full Time",
     "location": "San Francisco, USA",
     "salary": "$120,000 - $140,000",
-    "logo": "https://i.ibb.co/wMrDvcP/group.png"
+    "logo": "https://i.ibb.co/wMrDvcP/group.png",
+    "jobDescription": "We are seeking a talented Backend Engineer to join our team. In this role, you will be responsible for designing, developing, and maintaining our backend systems and infrastructure.",
+    "jobResponsibilities": "Designing, developing, and maintaining backend systems and infrastructure",
+    "educationalRequirements": "Bachelor’s degree in Computer Science or related field",
+    "experiences": "5+ years of experience in backend development",
+    "phoneNumber": "123-456-45650",
+    "email": "gjkj@acmeinc.com"
   },
   {
     "id": 55,
@@ -47,7 +69,12 @@
     "employmentType": "Full Time",
     "location": "New York, USA",
     "salary": "$90,000 - $110,000",
-    "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    "logo": "https://i.ibb.co/tb37SSL/google.png",
+    "jobDescription": "We are seeking a Data Analyst to join our team. In this role, you will be responsible for collecting, analyzing and interpreting large datasets to drive business decisions.",
+    "educationalRequirements": "Bachelor’s degree in Mathematics, Statistics, Computer Science or related field",
+    "experiences": "3+ years of experience as a Data Analyst",
+    "phoneNumber": "123-456-7890",
+    "email": "jobs@acmeinc.com"
   },
   {
     "id": 66,
@@ -57,7 +84,13 @@
     "employmentType": "Full Time",
     "location": "Asia",
     "salary": "$80,000 - $100,000",
-    "logo": "https://logowik.com/content/uploads/images/tesla.jpg"
+    "logo": "https://i.ibb.co/wBwnJch/tesla.png",
+    "jobDescription": "We are seeking a Software Engineer to join our team. In this role, you will be responsible for developing and maintaining software applications that meet the needs of our clients and customers.",
+    "jobResponsibility": "Design, develop, and test software applications. Collaborate with cross-functional teams to identify, prioritize, and execute software development projects. Continuously improve software engineering practices and processes.",
+    "educationalRequirements": "Bachelor’s degree in Computer Science, Software Engineering, or related field",
+    "experiences": "3+ years of experience in software development",
+    "phoneNumber": "123-456-7890",
+    "email": "jobdffds@acmeinc.com"
   },
   {
     "id": 77,
@@ -67,6 +100,12 @@
     "employmentType": "Part Time",
     "location": "London, UK",
     "salary": "$50 - $60 per hour",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+    "logo": "https://i.ibb.co/Ttgn4vT/netflix.png",
+    "jobDescription": "We are seeking a UX Designer to join our team. In this role, you will be responsible for designing and improving user interfaces and experiences across all of our digital products.",
+    "jobResponsibility": "Collaborate with cross-functional teams to identify, prioritize, and execute design projects. Create wireframes, prototypes, and high-fidelity designs for mobile and web applications. Conduct user research and usability testing to gather feedback and iterate on designs.",
+    "educationalRequirements": "Bachelor’s degree in Graphic Design, User Experience Design, or related field",
+    "experiences": "3+ years of experience in UX design or related field",
+    "phoneNumber": "123-456-7890",
+    "email": "jofdfdbs@acmeinc.com"
   }
 ]

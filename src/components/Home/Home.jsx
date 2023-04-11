@@ -4,13 +4,13 @@ import { useLoaderData } from "react-router-dom";
 import Job from "../Job/Job";
 import Featured from "../SingleFeaturedJob/Featured";
 const Home = () => {
-  const jobs = useLoaderData();
+  const featuredJob = useLoaderData();
 
-  const [featuredJob, setFeaturedJob] = useState([]);
+  const [jobs, setJobs] = useState([]);
   useEffect(() => {
-    fetch("data.json")
+    fetch("jobs.json")
       .then((res) => res.json())
-      .then((data) => setFeaturedJob(data));
+      .then((data) => setJobs(data));
   }, []);
 
   return (

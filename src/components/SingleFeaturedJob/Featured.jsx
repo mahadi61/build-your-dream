@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Featured = ({ singleJob }) => {
   const {
+    id,
     logo,
     jobTitle,
     companyName,
@@ -12,7 +14,7 @@ const Featured = ({ singleJob }) => {
   } = singleJob;
   return (
     <div className="shadow-md p-10 my-6">
-      <img src={logo} alt="" />
+      <img className="my-2" src={logo} alt="" />
       <h3 className="text-2xl font-bold">{jobTitle}</h3>
       <p className="text-slate-400">{companyName}</p>
       <p className="my-4 text-indigo-600">
@@ -29,9 +31,11 @@ const Featured = ({ singleJob }) => {
         {salary}
       </p>
 
-      <button className="mb-auto primary-btn w-48 px-7 py-5 font-bold	rounded-lg text-xl text-white mt-6">
-        View Details
-      </button>
+      <Link to={`/${id}`}>
+        <button className="mb-auto primary-btn w-48 px-7 py-5 font-bold	rounded-lg text-xl text-white mt-6">
+          View Details
+        </button>
+      </Link>
     </div>
   );
 };
