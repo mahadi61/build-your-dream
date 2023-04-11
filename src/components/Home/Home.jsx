@@ -1,15 +1,20 @@
 import React from "react";
-
+import "./Home.css";
+import { useLoaderData } from "react-router-dom";
+import Job from "../Job/Job";
 const Home = () => {
+  const jobs = useLoaderData();
+  //   console.log(jobs);
+
   return (
     <div>
       {/* hero area start */}
-      <section className="flex justify-between items-center h-screen bg-gray-400	">
+      <section className="flex justify-between items-center my-8">
         <div className="h-full">
           <h2 className="text-6xl font-bold mb-5">
-            Find a Job and grow your <span>career</span>
+            Find a Job and grow <span className="hero-text">your career</span>
           </h2>
-          <p>
+          <p className="text-xl text-slate-400">
             A career opportunity is a position that offers the possibility to
             put training to use, pick up new skills, and have a real chance of
             advancement in the future.
@@ -24,6 +29,24 @@ const Home = () => {
             src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?w=900&t=st=1681153368~exp=1681153968~hmac=b0192beef5a779c7b892621a321febbf595cef727181987e4cf6578f9464904f"
             alt=""
           />
+        </div>
+      </section>
+      {/* Available jobs */}
+
+      <section>
+        <div className="text-center">
+          <h3 className="text-4xl text-black mb-4 font-extrabold">
+            Available Jobs
+          </h3>
+          <p>
+            Explore thousands of job opportunities with all the information you
+            need. Its your future
+          </p>
+        </div>
+        <div className="flex justify-between mt-7">
+          {jobs.map((job) => (
+            <Job key={job.id} job={job}></Job>
+          ))}
         </div>
       </section>
     </div>

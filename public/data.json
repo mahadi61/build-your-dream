@@ -1,0 +1,72 @@
+[
+  {
+    "id": 11,
+    "jobTitle": "Front End Developer",
+    "companyName": "Google LLC",
+    "jobType": "Remote",
+    "employmentType": "Full Time",
+    "location": "United States",
+    "salary": "$100,000 - $120,000",
+    "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+  },
+  {
+    "id": 22,
+    "jobTitle": "Marketing Manager",
+    "companyName": "Tesla",
+    "jobType": "Onsite",
+    "employmentType": "Full Time",
+    "location": "Toronto, Canada",
+    "salary": "$80,000 - $100,000",
+    "logo": "https://logowik.com/content/uploads/images/tesla.jpg"
+  },
+  {
+    "id": 33,
+    "jobTitle": "Product Designer",
+    "companyName": "Netflix",
+    "jobType": "Remote",
+    "employmentType": "Part Time",
+    "location": "Europe",
+    "salary": "$50 - $60 per hour",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+  },
+  {
+    "id": 44,
+    "jobTitle": "Backend Engineer",
+    "companyName": "Gamma Co.",
+    "jobType": "Onsite",
+    "employmentType": "Full Time",
+    "location": "San Francisco, USA",
+    "salary": "$120,000 - $140,000",
+    "logo": "https://example.com/gamma-logo.png"
+  },
+  {
+    "id": 55,
+    "jobTitle": "Data Analyst",
+    "companyName": "Google LLC.",
+    "jobType": "Onsite",
+    "employmentType": "Full Time",
+    "location": "New York, USA",
+    "salary": "$90,000 - $110,000",
+    "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+  },
+  {
+    "id": 66,
+    "jobTitle": "Software Engineer",
+    "companyName": "Tesla",
+    "jobType": "Remote",
+    "employmentType": "Full Time",
+    "location": "Asia",
+    "salary": "$80,000 - $100,000",
+    "logo": "https://logowik.com/content/uploads/images/tesla.jpg"
+  },
+  {
+    "id": 77,
+    "jobTitle": "UX Designer",
+    "companyName": "Netflix",
+    "jobType": "Onsite",
+    "employmentType": "Part Time",
+    "location": "London, UK",
+    "salary": "$50 - $60 per hour",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+  }
+]

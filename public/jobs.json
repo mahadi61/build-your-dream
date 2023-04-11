@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "jobTitle": "Software Engineer",
+    "jobVacancy": 350,
+    "imageLink": "https://www.nicepng.com/png/detail/319-3193035_technology-clipart-software-engineer-.png"
+  },
+  {
+    "id": 2,
+    "jobTitle": "Data Scientist",
+    "jobVacancy": 200,
+    "imageLink": "https://static.vecteezy.com/system/resources/previews/006/020/770/original/brain-tech-mind-data-logo-free-vector.jpg"
+  },
+  {
+    "id": 3,
+    "jobTitle": "Product Manager",
+    "jobVacancy": 150,
+    "imageLink": "https://hackernoon.com/images/TLmbbABJmKb8SkSInjeEkfcFCAy1-mrof2mcn.jpg"
+  },
+  {
+    "id": 4,
+    "jobTitle": "Account & Finance",
+    "jobVacancy": 250,
+    "imageLink": "https://static.vecteezy.com/system/resources/previews/002/292/457/original/illustration-of-calculator-icon-symbol-free-vector.jpg"
+  }
+]
