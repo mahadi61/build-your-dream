@@ -33,7 +33,7 @@ const Home = () => {
         <div className="h-full">
           <img
             className="w-full h-full"
-            src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?w=900&t=st=1681153368~exp=1681153968~hmac=b0192beef5a779c7b892621a321febbf595cef727181987e4cf6578f9464904f"
+            src="https://i.ibb.co/bXbysTM/hero.png"
             alt=""
           />
         </div>
