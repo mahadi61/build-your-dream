@@ -6,18 +6,44 @@ import SingleAppliedJob from "./SingleAppliedJob/SingleAppliedJob";
 const AppliedJobs = () => {
   const jobList = useLoaderData();
   const job = getShoppingCart();
-
   const appliedList = [];
 
   for (const id in job) {
     const appliedJob = jobList.find((job) => job.id === Number(id));
     appliedList.push(appliedJob);
   }
+
+  const [jType, setJobType] = useState("");
+  const filteredJobs =
+    jType.length > 0
+      ? appliedList.filter((job) => job.jobType === jType)
+      : appliedList;
+
+  const handleChangeJobType = (jobType) => {
+    setJobType((prev) => (prev !== jobType ? jobType : ""));
+  };
+
   return (
     <div>
-      {appliedList.map((job) => (
-        <SingleAppliedJob key={job.id} job={job}></SingleAppliedJob>
-      ))}
+      <div className="flex justify-end items-center gap-3">
+        <button
+          onClick={() => handleChangeJobType("Remote")}
+          className="hover:bg-blue-700 hover:text-white py-2 px-5 border-solid border-2 rounded-lg border-indigo-600"
+        >
+          Remote
+        </button>
+        <button
+          onClick={() => handleChangeJobType("Onsite")}
+          className="hover:bg-blue-700 hover:text-white py-2 px-5 border-solid border-2 rounded-lg border-indigo-600"
+        >
+          Onsite
+        </button>
+      </div>
+      <div>
+        {filteredJobs.map((job) => (
+          <SingleAppliedJob key={job.id} job={job}></SingleAppliedJob>
+        ))}
+      </div>
     </div>
   );
 };
