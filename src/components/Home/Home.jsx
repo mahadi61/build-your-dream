@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
-import { useLoaderData } from "react-router-dom";
-import Job from "../Job/Job";
+import { Link, useLoaderData } from "react-router-dom";
 import Featured from "../SingleFeaturedJob/Featured";
+import AvailableJobs from "../AvailableJobs/AvailableJobs";
 const Home = () => {
   const featuredJob = useLoaderData();
 
@@ -31,9 +31,11 @@ const Home = () => {
             put training to use, pick up new skills, and have a real chance of
             advancement in the future.
           </p>
-          <button className="text-center primary-btn w-48 px-5 py-4 font-bold	rounded-lg text-xl text-white mt-6">
-            Get Started
-          </button>
+          <Link to="/get-started">
+            <button className="text-center primary-btn w-48 px-5 py-4 font-bold	rounded-lg text-xl text-white mt-6">
+              Get Started
+            </button>
+          </Link>
         </div>
         <div className="h-full">
           <img
@@ -45,22 +47,7 @@ const Home = () => {
       </section>
       {/* Available jobs */}
 
-      <section>
-        <div className="text-center">
-          <h3 className="text-4xl text-black mb-4 font-extrabold">
-            Available Jobs
-          </h3>
-          <p>
-            Explore thousands of job opportunities with all the information you
-            need. Its your future
-          </p>
-        </div>
-        <div className="flex md:flex-row flex-col justify-between mt-2 md:mt-7">
-          {jobs.map((job) => (
-            <Job key={job.id} job={job}></Job>
-          ))}
-        </div>
-      </section>
+      <AvailableJobs jobs={jobs}></AvailableJobs>
 
       {/* feature jobs */}
       <section>
@@ -69,8 +56,8 @@ const Home = () => {
             Featured Jobs
           </h3>
           <p>
-            Explore thousands of job opportunities with all the information you
-            need. Its your future
+            Discover tens of thousands of employment options with the necessary
+            knowledge. This is your future.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
