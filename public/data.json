@@ -94,21 +94,5 @@
     "experience": "3+ years of experience in software development",
     "phoneNumber": "123-456-7890",
     "email": "jobdffds@acmeinc.com"
-  },
-  {
-    "id": 77,
-    "jobTitle": "UX Designer",
-    "companyName": "Netflix",
-    "jobType": "Onsite",
-    "employmentType": "Part Time",
-    "location": "London, UK",
-    "salary": "$50 - $60 per hour",
-    "logo": "https://i.ibb.co/Ttgn4vT/netflix.png",
-    "jobDescription": "We are seeking a UX Designer to join our team. In this role, you will be responsible for designing and improving user interfaces and experiences across all of our digital products.",
-    "jobResponsibility": "Collaborate with cross-functional teams to identify, prioritize, and execute design projects. Create wireframes, prototypes, and high-fidelity designs for mobile and web applications. Conduct user research and usability testing to gather feedback and iterate on designs.",
-    "educationalRequirements": "Bachelor’s degree in Graphic Design, User Experience Design, or related field",
-    "experience": "3+ years of experience in UX design or related field",
-    "phoneNumber": "123-456-7890",
-    "email": "jofdfdbs@acmeinc.com"
   }
 ]
