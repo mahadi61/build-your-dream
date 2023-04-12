@@ -20,19 +20,20 @@ const Blog = () => {
         to React apps. Typically, one can install a third-party library and fix
         the issue if a feature is needed to be added.
       </p>
-      <h3 className="text-2xl font-bold my-3">
-        3. What is useRef and useMemo?
-      </h3>
+      <h3 className="text-2xl font-bold my-3">3. What is useRef?</h3>
       <p>
         UseRef, which stands for reference, is a hook that enables data
         persistence between renderings without requiring the component to redraw
         itself. It is utilized by calling the useRef method and giving it a
         starting value. Let's start by going over the syntax and applying the
         hook.
-        <br />A function's result can be memoized using the hook useMemo so that
-        it is only recalculated when its dependencies change. It can be used to
-        speed up the rendering of a component that handles a lot of items or
-        complex computations.
+      </p>
+      <h3 className="text-2xl font-bold my-3">4. What is useMemo?</h3>
+      <p>
+        A function's result can be memoized using the hook useMemo so that it is
+        only recalculated when its dependencies change. It can be used to speed
+        up the rendering of a component that handles a lot of items or complex
+        computations.
       </p>
     </div>
   );

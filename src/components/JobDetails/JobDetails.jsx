@@ -13,7 +13,22 @@ const JobDetails = () => {
 
   return (
     <>
-      <h2 className="mb-5 text-3xl text-center font-bold">Job Details</h2>
+      <div className="">
+        <div className="flex justify-between items-center  relative -mt-28 -z-10">
+          <img
+            className=" bottom-0 left-0"
+            src="https://i.ibb.co/K60bF50/Vector.png"
+            alt=""
+          />
+          <h2 className="mb-5 text-3xl text-center font-bold">Job Details</h2>
+          <img
+            className="top-0 right-0"
+            src="https://i.ibb.co/Tt8BFYN/Vector-1.png"
+            alt=""
+          />
+        </div>
+      </div>
+
       <div className="grid grid-cols-2 gap-x-6	mt-10">
         <div>
           <p className="text-xl font-bold text-gray-600 mb-5">
