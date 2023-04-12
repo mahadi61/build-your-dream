@@ -30,13 +30,13 @@ const AppliedJobs = () => {
           onClick={() => handleChangeJobType("Remote")}
           className="hover:bg-blue-700 hover:text-white py-2 px-5 border-solid border-2 rounded-lg border-indigo-600"
         >
-          Remote
+          Show Remote jobs
         </button>
         <button
           onClick={() => handleChangeJobType("Onsite")}
           className="hover:bg-blue-700 hover:text-white py-2 px-5 border-solid border-2 rounded-lg border-indigo-600"
         >
-          Onsite
+          Show Onsite jobs
         </button>
       </div>
       <div>
