@@ -21,17 +21,17 @@ const Home = () => {
   return (
     <div>
       {/* hero area start */}
-      <section className="flex justify-between items-center my-8">
+      <section className="flex md:flex-row flex-col justify-between items-center my-8">
         <div className="h-full">
-          <h2 className="text-6xl font-bold mb-5">
+          <h2 className="md:text-6xl text-xl font-bold mb-5">
             Find a Job and grow <span className="hero-text">your career</span>
           </h2>
-          <p className="text-xl text-slate-400">
+          <p className="text-xs text-slate-400">
             A career opportunity is a position that offers the possibility to
             put training to use, pick up new skills, and have a real chance of
             advancement in the future.
           </p>
-          <button className="primary-btn w-48 px-5 py-4 font-bold	rounded-lg text-xl text-white mt-6">
+          <button className="text-center primary-btn w-48 px-5 py-4 font-bold	rounded-lg text-xl text-white mt-6">
             Get Started
           </button>
         </div>
@@ -55,7 +55,7 @@ const Home = () => {
             need. Its your future
           </p>
         </div>
-        <div className="flex justify-between mt-7">
+        <div className="flex md:flex-row flex-col justify-between mt-2 md:mt-7">
           {jobs.map((job) => (
             <Job key={job.id} job={job}></Job>
           ))}
@@ -73,7 +73,7 @@ const Home = () => {
             need. Its your future
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
           {featuredJob
             .map((singleJob) => (
               <Featured key={singleJob.id} singleJob={singleJob}></Featured>

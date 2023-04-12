@@ -4,15 +4,15 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center py-6">
-      <div>
+    <nav className="flex flex-col justify-center items-center md:flex-row  md:justify-between md:items-center   py-6">
+      <div className="">
         <Link to="/">
           <span className="text-3xl font-bold text-black ">
             Build Your Dream
           </span>
         </Link>
       </div>
-      <div className=" flex gap-x-4	 text-xl text-slate-400 ">
+      <div className=" flex md:flex-row flex-col gap-x-4	 text-xl text-slate-400 ">
         <Link to="/">Home</Link>
         <Link to="statistics">Statistics</Link>
         <Link to="applied-jobs">Applied Jobs</Link>

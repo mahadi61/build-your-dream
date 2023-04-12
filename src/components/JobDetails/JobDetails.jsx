@@ -75,7 +75,7 @@ const JobDetails = () => {
           </div>
           <button
             onClick={() => handleApply(job)}
-            className="primary-btn w-48 px-4 py-3 font-bold	rounded-lg text-xl text-white mt-6 w-full"
+            className="primary-btn  px-4 py-3 font-bold	rounded-lg text-xl text-white mt-6 w-full"
           >
             Apply Now
           </button>
